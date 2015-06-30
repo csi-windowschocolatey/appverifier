@@ -6,3 +6,9 @@ $silentArgs = " /l*v $env:temp\CHOCO-INSTALL-$packageName.log /qn"
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" -validExitCodes $validExitCodes "$url64"
+
+Write-Output "**************************************************************************************"
+Write-Output "*  INSTRUCTIONS: Use the start menu to search for `"Application Verifier...`"        *"
+Write-Output "*   More Info:                                                                       *"
+Write-Output "*   https://msdn.microsoft.com/en-us/library/windows/desktop/dd371695(v=vs.85).aspx  *"
+Write-Output "**************************************************************************************"

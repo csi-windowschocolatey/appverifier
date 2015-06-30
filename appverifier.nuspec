@@ -14,7 +14,7 @@ Verify that applications are compliant with Microsoft specifications, especially
     <projectUrl>https://msdn.microsoft.com/en-us/library/windows/desktop/dd371695(v=vs.85).aspx</projectUrl>
     <tags></tags>
     <copyright>Microsoft</copyright>
-    <iconUrl>https://cdn.rawgit.com/csi-windowschocolatey/previewconfig/master/appicon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/csi-windowschocolatey/appverifier/master/appicon.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
